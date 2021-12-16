@@ -11,12 +11,11 @@ int
 main(void)
 {
 	int	i = 0;
-
 	hdlr_install();
 
 	while (gFlag)
 	{
-		printf("Counting, %d...\n", i++);
+		print("Counting, %d...\n", i++);
 	}
 
 	return 0;
